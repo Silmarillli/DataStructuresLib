@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/ternary_search_tree.dir/ternary_search_tree_test.cc.o CMakeFiles/ternary_search_tree.dir/gtest_main.cc.o  -o ternary_search_tree -rdynamic -Wl,-Bstatic -lgtest -Wl,-Bdynamic -lpthread 

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Silmarilli/Desktop/just/gtest_main.cc
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+
+/mnt/c/Users/Silmarilli/Desktop/just/two_three_heap.h
+vector
+-
+functional
+-
+algorithm
+-
+memory
+-
+limits
+-
+stdexcept
+-
+cassert
+-
+utility
+-
+
+/mnt/c/Users/Silmarilli/Desktop/just/two_three_heap_test.cc
+string
+-
+two_three_heap.h
+/mnt/c/Users/Silmarilli/Desktop/just/two_three_heap.h
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+

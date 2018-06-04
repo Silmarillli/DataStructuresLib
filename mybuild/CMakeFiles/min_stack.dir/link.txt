@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/min_stack.dir/min_stack_test.cc.o CMakeFiles/min_stack.dir/gtest_main.cc.o  -o min_stack -rdynamic -Wl,-Bstatic -lgtest -Wl,-Bdynamic -lpthread 

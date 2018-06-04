@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Silmarilli/Desktop/just/binomial_heap.h
+vector
+-
+algorithm
+-
+stdlib.h
+-
+
+/mnt/c/Users/Silmarilli/Desktop/just/binomial_heap_test.cc
+binomial_heap.h
+/mnt/c/Users/Silmarilli/Desktop/just/binomial_heap.h
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+
+/mnt/c/Users/Silmarilli/Desktop/just/gtest_main.cc
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+

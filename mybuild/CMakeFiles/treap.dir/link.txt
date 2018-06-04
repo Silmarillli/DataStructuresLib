@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/treap.dir/treap_test.cc.o CMakeFiles/treap.dir/gtest_main.cc.o  -o treap -rdynamic -Wl,-Bstatic -lgtest -Wl,-Bdynamic -lpthread 

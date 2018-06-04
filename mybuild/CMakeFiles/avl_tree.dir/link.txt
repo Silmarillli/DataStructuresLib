@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/avl_tree.dir/avl_tree_test.cc.o CMakeFiles/avl_tree.dir/gtest_main.cc.o  -o avl_tree -rdynamic -Wl,-Bstatic -lgtest -Wl,-Bdynamic -lpthread 

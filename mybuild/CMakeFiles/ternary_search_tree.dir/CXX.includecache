@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Silmarilli/Desktop/just/gtest_main.cc
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+
+/mnt/c/Users/Silmarilli/Desktop/just/ternary_search_tree.h
+string
+-
+map
+-
+deque
+-
+iterator
+-
+algorithm
+-
+
+/mnt/c/Users/Silmarilli/Desktop/just/ternary_search_tree_test.cc
+string
+-
+ternary_search_tree.h
+/mnt/c/Users/Silmarilli/Desktop/just/ternary_search_tree.h
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+

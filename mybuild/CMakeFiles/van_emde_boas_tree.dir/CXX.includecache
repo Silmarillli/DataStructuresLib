@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Silmarilli/Desktop/just/gtest_main.cc
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+
+/mnt/c/Users/Silmarilli/Desktop/just/van_emde_boas_tree.cc
+van_emde_boas_tree.h
+/mnt/c/Users/Silmarilli/Desktop/just/van_emde_boas_tree.h
+
+/mnt/c/Users/Silmarilli/Desktop/just/van_emde_boas_tree.h
+utility
+-
+iterator
+-
+climits
+-
+
+/mnt/c/Users/Silmarilli/Desktop/just/van_emde_boas_tree_test.cc
+string
+-
+van_emde_boas_tree.cc
+/mnt/c/Users/Silmarilli/Desktop/just/van_emde_boas_tree.cc
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+

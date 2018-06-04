@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/binomial_heap.dir/binomial_heap_test.cc.o CMakeFiles/binomial_heap.dir/gtest_main.cc.o  -o binomial_heap -rdynamic -Wl,-Bstatic -lgtest -Wl,-Bdynamic -lpthread 

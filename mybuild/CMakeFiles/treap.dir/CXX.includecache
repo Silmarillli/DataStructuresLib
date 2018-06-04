@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Silmarilli/Desktop/just/gtest_main.cc
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+
+/mnt/c/Users/Silmarilli/Desktop/just/treap.h
+algorithm
+-
+functional
+-
+utility
+-
+iterator
+-
+cstdlib
+-
+stdexcept
+-
+
+/mnt/c/Users/Silmarilli/Desktop/just/treap_test.cc
+string
+-
+treap.h
+/mnt/c/Users/Silmarilli/Desktop/just/treap.h
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+

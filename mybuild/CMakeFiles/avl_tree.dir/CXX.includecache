@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Silmarilli/Desktop/just/avl_tree.h
+algorithm
+-
+functional
+-
+utility
+-
+iterator
+-
+stdexcept
+-
+cassert
+-
+
+/mnt/c/Users/Silmarilli/Desktop/just/avl_tree_test.cc
+string
+-
+avl_tree.h
+/mnt/c/Users/Silmarilli/Desktop/just/avl_tree.h
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+
+/mnt/c/Users/Silmarilli/Desktop/just/gtest_main.cc
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+

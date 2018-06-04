@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/skew_binomial_heap.dir/skew_binomial_heap_test.cc.o CMakeFiles/skew_binomial_heap.dir/gtest_main.cc.o  -o skew_binomial_heap -rdynamic -Wl,-Bstatic -lgtest -Wl,-Bdynamic -lpthread 

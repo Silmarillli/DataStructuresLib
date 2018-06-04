@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Silmarilli/Desktop/just/gtest_main.cc
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+
+/mnt/c/Users/Silmarilli/Desktop/just/min_queue.h
+min_stack.h
+/mnt/c/Users/Silmarilli/Desktop/just/min_stack.h
+functional
+-
+
+/mnt/c/Users/Silmarilli/Desktop/just/min_queue_test.cc
+string
+-
+min_queue.h
+/mnt/c/Users/Silmarilli/Desktop/just/min_queue.h
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+
+/mnt/c/Users/Silmarilli/Desktop/just/min_stack.h
+deque
+-
+functional
+-
+utility
+-
+

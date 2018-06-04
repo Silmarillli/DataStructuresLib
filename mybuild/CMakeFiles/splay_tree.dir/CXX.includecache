@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Silmarilli/Desktop/just/gtest_main.cc
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+
+/mnt/c/Users/Silmarilli/Desktop/just/splay_tree.h
+algorithm
+-
+functional
+-
+utility
+-
+iterator
+-
+stdexcept
+-
+
+/mnt/c/Users/Silmarilli/Desktop/just/splay_tree_test.cc
+string
+-
+splay_tree.h
+/mnt/c/Users/Silmarilli/Desktop/just/splay_tree.h
+gtest/gtest.h
+/mnt/c/Users/Silmarilli/Desktop/just/gtest/gtest.h
+

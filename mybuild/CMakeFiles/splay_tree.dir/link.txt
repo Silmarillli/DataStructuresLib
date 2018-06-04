@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/splay_tree.dir/splay_tree_test.cc.o CMakeFiles/splay_tree.dir/gtest_main.cc.o  -o splay_tree -rdynamic -Wl,-Bstatic -lgtest -Wl,-Bdynamic -lpthread 
