@@ -1,3 +1,17 @@
-This Library provides implementations of various data structures and tests for those implementations.
+//------------------------------------------------------------------------------
+This Library provides c++ implementations of some of the data structures in the format as similar to the standard template library. All implementations are defined in the namespace util.
 
-To install just run cmake in the project existing directory and then use make to produce executable.
+//-------------------------------------------------------------------------------
+TO BUILD USING CMAKE:
+
+To build the test cases for various implementations, follow the commands in the 
+source directory
+
+   mkdir mybuild
+   cd mybuild
+   cmake ..
+   make 
+
+//-------------------------------------------------------------------------------
+CONTENTS:
+
