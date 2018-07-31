@@ -1,34 +1,3 @@
-/****************************************************************************
- * File: Treap.hh
- * Author: Keith Schwarz (htiek@cs.stanford.edu)
- *
- * An implementation of a dictionary structure backed by a treap.  A treap is
- * a probabilistic data structure in which each node stores two values, the
- * key being stored and a random 32-bit integer.  The tree structure is such
- * that the tree is simultaneously a binary search tree with respect to the
- * keys and a min-heap with respect to the integers.  The BST property
- * guarantees O(h) insertion, deletion, and lookup (where h is the height of
- * the tree), and the min-heap property helps ensure that, on expectation, the
- * height of the tree is not too great.  In fact, with high probability the
- * height of the tree is O(lg n), and the treap has the same runtime
- * guarantees as a self-balancing binary tree.
- *
- * The main advantage of the treap over other balanced tree structures is
- * that the implementation is substantially similar.  All operations to do
- * insertions and deletions can be implemented as simple tree rotations.  For
- * example, inserting a value into a treap works by inserting the node as
- * usual in a BST, then using tree rotations to fix up the min-heap property.
- * Deletions work by rotating the node to be deleted down to a leaf, then
- * removing it from the tree.  Neither operation requires complex logic for
- * balance factors, node colors, etc.
- *
- * This implementation of the Treap uses the Treap to implement a sorted
- * associative array, where each node stores both a key and some auxiliary
- * data.  Additionally, each node functions as a member of a doubly-linked
- * list of the elements, which allows for linear time tree traversal even when
- * the treap is being modified.  Fortunately, since the list contains elements
- * in sorted order, the links do not need to be modified during a rotation.
- */
 #ifndef Treap_Included
 #define Treap_Included
 
