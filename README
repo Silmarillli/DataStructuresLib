@@ -1,0 +1,14 @@
+ALGORITHMS
+
+Coded up and tested some of advanced Algorithms and Data structures in C++. The implementation makes extensive use of Standard Template Library.
+
+TO BUILD USING CMAKE
+
+To build the test cases for various implementations, follow the commands in the 
+source directory
+ 
+ mkdir mybuild
+ cd mybuild
+ cmake ..
+ make 
+
