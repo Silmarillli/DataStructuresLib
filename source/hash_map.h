@@ -12,8 +12,6 @@
 #include <algorithm>
 #include <utility>
 
-
-
 namespace util {
 
 	// A default hash object
@@ -32,9 +30,7 @@ namespace util {
 		size_t operator()(const std::string& key) const;
 	};
 
-
-
-
+	
 	// const_hash_map_iterator class definition
 	template <typename HashMap>
 	class const_hash_map_iterator
