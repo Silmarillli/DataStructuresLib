@@ -1,16 +1,3 @@
-/**********************************************************
- * File: BinomialHeap.h
- * Author: Keith Schwarz (htiek@cs.stanford.edu)
- *
- * An implementation of a priority queue class backed by a
- * binomial heap.  A descripton of how such heaps work can
- * be found in "Introduction to Algorithms, Second Edition"
- * by Cormen, Leisserson, Rivest, and Stein.  The 
- * implementation contained in this file is optimized for
- * readability rather than speed, but all of the heap
- * operations have the correct asymptotic runtime.
- */
-
 #ifndef BinomialHeap_Included
 #define BinomialHeap_Included
 
