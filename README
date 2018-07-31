@@ -1,6 +1,7 @@
 ALGORITHMS
 
 Coded up and tested some of advanced Algorithms and Data structures in C++. The implementation makes extensive use of Standard Template Library.
+Google Testing framework is used for automated testing of these algorithms.
 
 TO BUILD USING CMAKE
 
@@ -11,4 +12,6 @@ source directory
  cd mybuild
  cmake ..
  make 
+ 
+ 
 
